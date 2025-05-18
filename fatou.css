@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* Général */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #111827;
+}
+
+header {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+/* À propos */
+.about img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Projets */
+.projects img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Compétences */
+.skills ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Contact */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact button {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #111827;
+}
+
+/* Footer */
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
